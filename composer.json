@@ -1,0 +1,26 @@
+{
+  "name":"markocupic/tags-newslist-infinite-scroll",
+  "description":"This contao module combines hschottm/tags and markocupic/contao-news-infinite-scroll-bundle.",
+  "keywords":["contao", "tagges", "newslist", "infinite scroll", "tags"],
+  "type":"contao-module",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Marko Cupic",
+      "homepage":"https://github.com/markocupic"
+    }
+  ],
+  "require":{
+    "php":">=7.0",
+    "contao/core-bundle": "~4.4",
+    "markocupic/contao-news-infinite-scroll-bundle": "^1.0",
+    "hschottm/tags": "^4.0"
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "": "system/modules/tags-newslist-infinite-scroll"
+      }
+    }
+  }
+}
